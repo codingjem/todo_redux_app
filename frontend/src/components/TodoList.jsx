@@ -1,13 +1,14 @@
 import React from "react";
+import "./TodoList.css";
 import TodoItem from "./TodoItem";
 
 const TodoList = () => {
     const todos = [
-        { id: 1, title: "todo1", completed: false },
-        { id: 2, title: "todo2", completed: false },
-        { id: 3, title: "todo3", completed: false },
-        { id: 4, title: "todo4", completed: false },
-        { id: 5, title: "todo5", completed: false },
+        { id: 1, title: "Wash Dishes", completed: false },
+        { id: 2, title: "Pick Up Parcel", completed: false },
+        { id: 3, title: "Finish Website Design", completed: false },
+        { id: 4, title: "Prep for Interview", completed: false },
+        { id: 5, title: "Feed the goats", completed: false },
     ];
 
     return (

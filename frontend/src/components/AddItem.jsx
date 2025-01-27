@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./AddItem.css";
 
 const AddItem = () => {
     const [value, setValue] = useState("");
@@ -8,16 +9,15 @@ const AddItem = () => {
     };
     return (
         <form onSubmit={onSubmit}>
-            <label htmlFor="">Name</label>
             <input
                 type="text"
                 className=""
-                placeholder="Add To Do"
+                placeholder="Add your new to do"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
             />
             <button type="submit" className="">
-                Submit
+                +
             </button>
         </form>
     );

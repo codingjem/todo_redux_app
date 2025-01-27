@@ -1,0 +1,19 @@
+form {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+input[type="text"] {
+    font-size: 25px;
+    width: 100%;
+    background-color: transparent;
+    padding-left: 20px;
+    border: 2px solid brown;
+}
+button[type="submit"] {
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border: 2px solid brown;
+}

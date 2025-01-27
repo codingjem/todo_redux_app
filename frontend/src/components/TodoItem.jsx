@@ -1,15 +1,14 @@
 import React from "react";
+import "./TodoItem.css";
 
 const TodoItem = ({ id, title, completed }) => {
     return (
-        <li>
-            <div>
-                <span>
-                    <input type="checkbox" className="" checked={completed} />
-                    {title}
-                </span>
-                <button className="">Delete</button>
-            </div>
+        <li className="todo-item">
+            <span>
+                <input type="checkbox" className="" />
+                {title}
+            </span>
+            <button className="todo-delete">-</button>
         </li>
     );
 };
